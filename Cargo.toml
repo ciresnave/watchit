@@ -1,0 +1,18 @@
+[package]
+    authors       = ["Eric Evans <ciresnave@yahoo.com>"]
+    categories    = ["filesystem", "os"]
+    description   = "An easy to use, cross-platform watcher for file changes"
+    documentation = "https://github.com/ciresnave/watchit"
+    edition       = "2021"
+    homepage      = "https://github.com/ciresnave/watchit"
+    keywords      = ["event", "filesystem", "notify", "os", "watch"]
+    license       = "MIT"
+    name          = "watchit"
+    readme        = "README.md"
+    repository    = "https://github.com/ciresnave/watchit"
+    version       = "0.1.0"
+
+[dependencies]
+    notify                = "6.1.1"
+    notify-debouncer-full = "0.3.1"
+    tracing               = "0.1.40"
